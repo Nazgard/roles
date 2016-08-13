@@ -20,21 +20,21 @@ interface HasRoleAndPermission
      */
     public function getRoles();
 
-    /**
-     * Check if the user has a role or roles.
-     *
-     * @param int|string|array $role
-     * @param bool $all
-     * @return bool
-     */
-    public function is($role, $all = false);
-
-    /**
-     * Check if the user has all roles.
-     *
-     * @param int|string|array $role
-     * @return bool
-     */
+//    /**
+//     * Check if the user has a role or roles.
+//     *
+//     * @param int|string|array $role
+//     * @param bool $all
+//     * @return bool
+//     */
+////    public function is($role, $all = false);
+////
+////    /**
+////     * Check if the user has all roles.
+////     *
+////     * @param int|string|array $role
+////     * @return bool
+////     */
     public function isAll($role);
 
     /**
