@@ -49,14 +49,14 @@ trait HasRoleAndPermission
      * @param bool $all
      * @return bool
      */
-    public function hasRole($role, $all = false)
-    {
-        if ($this->isPretendEnabled()) {
-            return $this->pretend('is');
-        }
-
-        return $this->{$this->getMethodName('hasRole', $all)}($role);
-    }
+//    public function is($role, $all = false)
+//    {
+//        if ($this->isPretendEnabled()) {
+//            return $this->pretend('is');
+ //       }
+//
+//        return $this->{$this->getMethodName('hasRole', $all)}($role);
+//    }
 
     /**
      * Check if the user has at least one role.
