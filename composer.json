@@ -1,12 +1,12 @@
 {
-    "name": "skvrd/roles",
+    "name": "nazgard/roles",
     "description": "Powerful package for handling roles and permissions in Laravel 5.",
     "keywords": ["roles", "permissions", "acl", "auth", "laravel", "illuminate"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Roman Bičan",
-            "email": "romanbican@seznam.cz"
+            "name": "Mikhail Makarov",
+            "email": "github@nazgard.com"
         }
     ],
     "require": {
